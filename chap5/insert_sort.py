@@ -1,5 +1,6 @@
 # 挿入ソート。いっつもよくわからない。何度も書いて覚えるしかない。
 # 一時退避領域tempを持っている
+# 計算量はO(n^2)
 
 import sys
 sys.dont_write_bytecode = True # これ入れとかないと実行時に__pycache__が作成される。やめてほしい。
