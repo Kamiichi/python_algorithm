@@ -1,5 +1,6 @@
 # マージソート
 # ここから計算が早くなってくる
+# マージソートの計算量はO(nlogn) => 早いねえ
 
 import sys
 sys.dont_write_bytecode = True # これ入れとかないと実行時に__pycache__が作成される。やめてほしい。
@@ -41,4 +42,4 @@ def merge(left, right):
     return result
 
 sorted_data = merge_sort(data)
-print(f'ソート前データ: {sorted_data}')
+print(f'ソート後データ: {sorted_data}')
